@@ -14,7 +14,7 @@ body {
 #app {
   width: 100vw;
   height: 100vh;
-  background: #343541;
+  background: #000000;
 
   display: flex;
   flex-direction: column;
@@ -72,9 +72,9 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .profile {
-  width: 5px;
-  height: 5px;
-  border-radius: 5px;
+  width: 1px;
+  height: 1px;
+  border-radius: 0px;
 
 
   display: flex;
@@ -95,8 +95,11 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 .message {
   flex: 1;
 
-  color: #dcdcdc;
+  color: #2bff00;
   font-size: 20px;
+  font-weight: 900;
+  font-family: monospace;
+  text-align: justify;
 
   max-width: 100%;
   overflow-x: scroll;
@@ -123,7 +126,6 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
-  background: #40414F;
 
   display: flex;
   flex-direction: row;
@@ -135,8 +137,10 @@ textarea {
   margin-left: auto;
   margin-right: auto;
 
-  color: rgb(255, 255, 255);
+  color: #2bff00;
   font-size: 18px;
+  font-family: monospace;
+  font-weight: 900;
 
   padding: 10px;
   background: transparent;
